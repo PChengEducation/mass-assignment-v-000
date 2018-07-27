@@ -15,7 +15,7 @@ wrist_size:, glove_size:, pant_length:, pant_width: )
     @handed = handed
     @complexion = complexion
     @t_shirt_size = t_shirt_size
-    @writst_size = wrist_size
+    @wrist_size = wrist_size
     @glove_size = glove_size
     @pant_length = pant_length
     @pant_width = pant_width
