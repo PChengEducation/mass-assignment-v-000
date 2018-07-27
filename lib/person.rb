@@ -19,6 +19,7 @@ wrist_size:, glove_size:, pant_length:, pant_width: )
     @glove_size = glove_size
     @pant_length = pant_length
     @pant_width = pant_width
+    attribute.each {|key, value| self.send(("#{key}="), value)}
   end
   def get_married(person)
     self.partner = person
